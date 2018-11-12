@@ -1,0 +1,57 @@
+<div id="banner-height" class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('https://kitt.lewagon.com/placeholder/cities/bali');">
+</div>
+
+<div class="wrapper">
+  <div class="container">
+    <div class="header-flat-details">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12">
+          <% flat = data.flats[owner] %>
+          <div class="flat-details">
+            <div class="owner">
+              <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{owner}", class: "img-circle img-small" %>
+              <p><%= flat.name %></p>
+            </div>
+            <div class="flat-info">
+              <h1><%= flat.description %></h1>
+              <p><%= flat.city_name %></p>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+
+
+          <div class="col-xs-4">
+            <div class="form">
+              <form action="#">
+                <h4>Book this lovely apartment</h4>
+                <div class="form-group">
+                  <div class="row">
+                    <div class="col-xs-6">
+                      <input type="text" class="form-control" placeholder="checkin" id="checkin">
+                    </div>
+                    <div class="col-xs-6">
+                      <input type="text" class="form-control" placeholder="checkout">
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <select name="" id="guests" class="form-control">
+                    <option value="1">1 guest</option>
+                    <option value="2">2 guests</option>
+                    <option value="3">3 guests</option>
+                    <option value="4">4 guests</option>
+                    <option value="5">5 guests</option>
+                  </select>
+                </div>
+                <input type="submit" class="btn btn-info" value="Please book here" style="width: 100%">
+              </form>
+            </div>
+          </div>
+
+      </div>
+    </div>
+  </div>

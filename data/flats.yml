@@ -1,0 +1,32 @@
+Vianney-de-Boisredon:
+  name: "Vianney's home"
+  description: "Charming room in Montmartre"
+  city_name: "Paris, France"
+  city_slug: "paris"
+  wifi: false
+  number_of_bedrooms: 3
+  rating: 4
+jdrel:
+  name: "Jascha' home"
+  description: Small flat in Tokyo
+  city_name: "Tokyo, Japan"
+  city_slug: "tokyo"
+  wifi: true
+  number_of_bedrooms: 2
+  rating: 3
+Phebz:
+  name: Pierre's home
+  description: Nice flat in Piccadilly
+  city_name: "London, UK"
+  city_slug: "london"
+  wifi: true
+  number_of_bedrooms: 6
+  rating: 5
+ssaunier:
+  name: Seb's home
+  description: Nice flat in the center of Bali
+  city_name: "Bali, Indonesia"
+  city_slug: "bali"
+  wifi: false
+  number_of_bedrooms: 4
+  rating: 4.7
